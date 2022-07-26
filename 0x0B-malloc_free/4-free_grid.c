@@ -16,5 +16,3 @@ void free_grid(int **grid, int height)
 		free((int *)grid[x++]);
 	free(grid);
 }
-Footer
-
